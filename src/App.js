@@ -3,11 +3,13 @@ import { Routes, Route, Link } from "react-router-dom";
 import Welcome from "./components/Welcome";
 import About from "./components/About";
 import Content from "./components/Content";
+import Todos from "./components/Todos";
 
 const routes = [
   { name: "welcome", url: "/", component: Welcome },
   { name: "About Page", url: "/about", component: About },
   { name: "Content", url: "/content", component: Content },
+  { name: "todos", url: "/todos", component: Todos },
 ];
 const App = () => {
   return (
